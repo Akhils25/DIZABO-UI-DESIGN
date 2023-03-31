@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#EEF2F5"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 items"
+        android:textColor="#808080"
+        android:textSize="12sp"
+        android:fontFamily="@font/inter_light"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shop name Here"
+        android:textColor="#000000"
+        android:textSize="15.65sp"
+        android:fontFamily="@font/inter_semibold"
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="16dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:itemCount="1"
+        tools:listitem="@layout/recycler_favourites"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:itemCount="1"
+        tools:listitem="@layout/recycler_favourites"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shop name Here"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:fontFamily="@font/inter_semibold"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:itemCount="1"
+        tools:listitem="@layout/recycler_favourites"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="135dp"
+        android:gravity="end"
+        android:background="@drawable/layout_border"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_border"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 items"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:textColor="#ffff"
+                android:fontFamily="@font/inter_light"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AED 300"
+                android:textSize="14sp"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="#ffff"
+                android:fontFamily="@font/inter_light"
+                />
+
+
+        </LinearLayout>
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".42"
+            android:text="View Cart"
+            android:textColor="#ffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/inter_medium"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_weight=".12"
+            android:layout_gravity="center"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/vector_2x"/>
+
+    </LinearLayout>
+
+</LinearLayout>

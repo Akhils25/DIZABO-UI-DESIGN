@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Almudabir Login</string>
+    <string name="vegetables_fruits"><![CDATA[Vegetables & Fruits]]></string>
+    <string name="muchies">Muchies</string>
+    <string name="hey_good_evening">Hey, good evening</string>
+    <string name="health_wellness"><![CDATA[Health & wellness]]></string>
+    <string name="top_offers_for_you">Top offers for you</string>
+    <string name="see_all">See all</string>
+    <string name="daylight_coffee">Daylight Coffee</string>
+    <string name="american_indonesia">$$ . American . Indonesia..</string>
+    <string name="_4_5">4.5</string>
+    <string name="_25min">25min</string>
+    <string name="free_delivery">Free delivery</string>
+    <string name="curated_with_the_best_range_of_t_products">Curated with the best range of products</string>
+    <string name="banana_special_imported_from_singapore_organic_high_rich_in_fiber"><![CDATA[Banana Special Imported from Singapore,Organic & High Rich in Fiber ...]]></string>
+    <string name="aed">AED</string>
+    <string name="_250">250</string>
+    <string name="aed_"> <strike>AED</strike></string>
+    <string name="_500"> <strike>500</strike></string>
+    <string name="no_limits_on_maximum_coins_per_order_t_c_apply"><![CDATA[No limits on maximum coins per order. T&C Apply]]></string>
+    <string name="login_signup_using_facebook_or_google"><u>Login / Signup using Facebook or Google</u></string>
+    <string name="hurry_store"><b>Hurry! Store closing today at 11 PM.</b> You can still add products even if store is closed for speedy checkout in next opening.</string>
+    <string name="vegetavles_fruits"><![CDATA[Vegetavles  \n & Fruits]]></string>
+    <string name="we_don_t_have_your_location_yet">We don\'t have your location, yet!</string>
+    <string name="view_services_near_default_location"><u>view services near default location</u></string>
+    <string name="looks_like_you_haven_t_added_anything_to_your_cart_yet">Looks like you haven’t added anything to your cart yet</string>
+</resources>

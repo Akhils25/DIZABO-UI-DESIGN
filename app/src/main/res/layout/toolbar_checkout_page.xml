@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffff">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".023"
+        android:layout_marginTop="10dp"
+        android:paddingStart="12dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/arrow_left_2x"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2"
+        android:text="Checkout"
+        android:textSize="18sp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/inter_semibold"
+        android:gravity="center"
+        android:layout_marginEnd="37dp"/>
+
+
+</LinearLayout>
